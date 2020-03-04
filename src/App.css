@@ -1,0 +1,176 @@
+#contenedor-titulo{
+    place-content: center;
+    background: #333 !important;
+
+}
+
+.contenedor-tabla{
+    justify-content: center;
+    color: white;
+    margin: 50px;
+}
+.contenedor{
+    height: calc(100vh - 99px);
+    margin: 0px 60px 0px 60px;
+
+}
+
+/*estilo de paginacion */
+#pagin {
+    float:right;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+#pagin > .pagination > li > a {
+    color: #fff;
+    padding: 7px;
+    font-weight: 400;
+    border: 1px solid #047e8a;
+    border-radius: 3px;
+    background-color: #047e8a;
+}
+
+#pagin > .pagination > .active > a {
+    z-index: 3;
+    color: #fff;
+    font-weight: 600;
+    background-color: #047e8a;
+    border-color: #717a81;
+    cursor: default;
+}
+.contenedor-formulario{
+    padding:20px
+}
+.contenedor-Btn {
+    width: 100%;
+    margin-top: 37px;
+    margin-bottom: 15px;
+    text-align: -webkit-center;
+}
+#contenedor-Btn-Agregar{
+    text-align: left;
+}
+
+#labelART {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    width: 100%;
+    color:#212121;
+    font-weight: 700;
+}
+#style-btn {
+    width: 100px;
+    background-color: #047e8a;
+    border-color: #0496a2;
+    color: #ffff;
+    margin-left: 4px;
+}
+.inputForm{
+    font-size: 13px;
+}
+
+/*fin de paginación */
+
+
+/*//date picker*/
+
+  .DayPickerInput > input {
+      text-align: center;
+      width: 100%;
+      line-height: 1.5;
+      display: block;
+      height: calc(1.5em + .75rem + 2px) !important;
+      padding: 0.335rem 0.35rem;
+      font-size: 12px;
+      font-weight: bold;
+      color: #5c6873;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: 0.25rem;
+      -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+.InputFromTo .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+    color: #ef3937;
+}
+
+.InputFromTo .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+    background-color: #f0f8ff !important;
+}
+
+.InputFromTo .DayPicker-Day {
+    border-radius: .2rem !important;
+}
+
+.InputFromTo .DayPicker-Day--start {
+    border-top-left-radius: 50% !important;
+    border-bottom-left-radius: 50% !important;
+}
+
+.InputFromTo .DayPicker-Day--end {
+    border-top-right-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+}
+
+.InputFromTo .DayPickerInput-Overlay {
+    width: 550px;
+}
+
+.DayPicker-Caption > div {
+    font-weight: 500;
+    font-size: 1.15em;
+    color: #333;
+}
+
+.DayPicker-Day {
+    color: #333;
+    display: table-cell;
+    padding: 0.5em;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.InputFromTo-to .DayPickerInput-Overlay {
+    margin-left: -198px;
+}
+
+/*//FIN DATEPICKER*/
+
+/*titulos*/
+#styleTitulo{
+    font-size: 23px;
+    font-weight: 700;
+    color:#0496a2;
+    font-family: "Book Antiqua";
+}
+.titulo-contenedor{
+    margin-top: 30px;
+    margin-bottom: 54px;
+}
+
+/*footer*/
+.footer{
+    min-height: 43px;
+    background-color: #2d2d2d;
+    color:#ffff;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+}
+
+/*search*/
+.searchStyle{
+    margin-bottom: 5px;
+}
+/*Tabla*/
+.contenedor-Tabla{
+    max-height: 300px;
+    overflow: auto;
+    width: 100%;
+}
